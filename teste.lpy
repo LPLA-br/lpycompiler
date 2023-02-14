@@ -1,0 +1,32 @@
+
+class Pessoa:
+
+   public a1 = "público"
+   protected a2 = "privado"
+   private a3 = "protegido"
+
+   function constructor(this, Nome, Idade, Peso, Altura):
+        public this.nome = Nome
+        public this.idade = Idade
+        protected this.peso = Peso
+        private this.altura = Altura
+
+   public function envelhecer(this):
+        this.idade++
+
+   protected function nada1(this):
+        if false:
+            print( "false" )
+        else if true:
+            print( "true" )
+
+   private function nada2():
+        pass
+
+# public = 
+# protected = _ 
+# private = __
+
+a = Pessoa("Mércio", 24, 70, 1.60)
+print( a.nome )
+
