@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#compilador ruim de lpython para python
+# COMPILADOR PYTHON -> LPYTHON
+# pequenas modificações sintáticas.
 
 # class():
 # function              def
